@@ -22,3 +22,4 @@ urlpatterns = [
     path('payment_done/', views.payment_done, name='payment_done'),
     path('payment_cancel/', views.payment_cancel, name='payment_cancel'),
 ]+static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT)
+urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
