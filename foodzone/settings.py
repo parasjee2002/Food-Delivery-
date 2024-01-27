@@ -8,7 +8,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 TEMPLATE_DIR = os.path.join(BASE_DIR,'template')
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-+06=x1aer^924_h5a5+l0sr)fb8p-9xd+#ctxqib1bi^ztu5dw'
+SECRET_KEY = 'django-insecure-+sq8ema8$e5!jj*n1v06gr^e#l*es0hw$3t)z(kqr-n&_#-xyr8'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
