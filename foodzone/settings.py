@@ -1,6 +1,8 @@
 
 from pathlib import Path
+# import django_heroku
 import os 
+# import dj_database_url
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 TEMPLATE_DIR = os.path.join(BASE_DIR,'template')
@@ -11,7 +13,7 @@ SECRET_KEY = 'django-insecure-+06=x1aer^924_h5a5+l0sr)fb8p-9xd+#ctxqib1bi^ztu5dw
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app']
+ALLOWED_HOSTS = [".onrender.com"]
 
 
 # Application definition
@@ -113,6 +115,7 @@ STATICFILES_DIRS = [
 ]
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
+# django_heroku.settings(locals())
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 MEDIA_URL = "/media/"
